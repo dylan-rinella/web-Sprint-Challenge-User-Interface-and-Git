@@ -67,9 +67,9 @@ header {
 }
 
 header nav {
-    width: 45%;
+    width: 100%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
     font-size: 14px;
 }
@@ -99,7 +99,7 @@ p {
     margin: 0 auto;
 }
 
-.top-content {
+.about {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -107,50 +107,26 @@ p {
     border-bottom: 1px dashed black;
 }
 
-.top-content .text-container {
+.about-text-container{
     width: 48%;
     padding: 2.5% 1%;
-    padding-bottom: 20px;  
+    padding-bottom: 20px; 
 }
 
-.middle-content {
+.strategy, .how {
+    display: flex;
+    justify-content: flex-start;
+    float: left;
+    align-items:center;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
 
-.middle-content h2 {
-    padding: 0 2%;
-    margin-bottom: 0;
-}
-
-.middle-content .boxes {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-}
-
-.middle-content .boxes .box1, .box2, .box3, .box4, .box5, .box6, .box7, .box8, .box9, .box10 {
-    width: 12.5%;
-    height: 100px;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.bottom-content {
-    display: flex;
-    margin: 0 2% 20px;
-    justify-content: space-around;
-}
-
-.bottom-content .text-container {
-    padding-right: 4%;
-}
-
-.bottom-content .text-container:last-child {
-    padding-right: 0;
+.places, .collab{
+    display:flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
 }
 
 footer {
@@ -171,47 +147,3 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
-
-.box1{
-    background:teal;  
-}
-
-.box2{
-    background:gold;  
-  }
-
-.box3{
-    background:cadetblue;  
-  }
-
-.box4{
-    background:coral;  
-  }
-
-.box5{
-    background:crimson;  
-  }
-
-.box6{
-    background:forestgreen;  
-  }
-
-.box7{
-    background:darkorchid;  
-  } 
-
-.box8{
-    background:hotpink;  
-  }
-  
-.box9{
-    background:indigo;  
-  }
-  
-.box10{
-    background:dodgerblue;  
-  }
-
-  /* About page */
-
-  
